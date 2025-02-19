@@ -1,0 +1,3 @@
+# Firebase Realtime Database Transaction Update Anomaly
+
+This repository demonstrates a perplexing issue encountered when using Firebase Realtime Database transactions.  Client-side code executes transactions without error, yet the database state remains unchanged. This is unusual, as Firebase transactions are expected to be atomic. The issue is not immediately obvious, and standard debugging techniques haven't yielded a straightforward solution. The provided code and solution offer insights into the problem and a potential workaround.
